@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  thead {
+    background-color: #f0f0f0;
+  }
+</style>
+
+<body>
+    <header id="head">
+<h1>Сайт партфолио</h1>
+
+<nav>
+<a href="#about" class="">Обо мне </a>
+
+<br>
+<a href="#skills" class="">Навыки</a>
+
+<br>
+<a href="#contact" class="">Контакты</a>
+
+<br>
+</nav>
+
+
+    </header>
+
+<main>
+<section id="about">
+
+    <h3>Обо мне </h3>
+    <p>Меня зовут Макар, инициалы — Л.В. Я изучаю full-stack веб-разработку с чёткой целью — к 16 годам пройти стажировку в IT-компании, получить реальный опыт работы и со временем вырасти от junior-разработчика до middle, а затем и до уровня senior.
+
+Сейчас я окончил 9 класс и готовлюсь к экзаменам. Параллельно активно изучаю семантику, прокачиваю навыки и нацелился стать полноценным full-stack разработчиком уже к концу лета. Это будет моё время для трансформации — я хочу настолько измениться, чтобы окружающие меня не узнали, а многие — завидовали результату.</p>
+
+<img src="./images/i.webp" alt="#">
+</section>
+<section id="skills">
+<h3>Навыки</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Навык</th>
+      <th>Статус</th>
+      <th>Прогресс</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Html</td>
+      <td>Изучается</td>
+      <td>30%</td>
+    </tr>
+    <tr>
+      <td>css</td>
+      <td>последущее изучение</td>
+      <td>10%</td>
+    </tr>
+
+    <tr>
+      <td>js</td>
+      <td>используется-изучается</td>
+      <td>10%</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+</section>
+<section id="contact">
+<h3>Контакт со мной</h3>
+
+<form id="contactForm" style="display: flex; flex-direction: column;">
+<label for="phone">Номер телефона:</label>
+<input type="tel" id="phone" name="phone" placeholder="+7(___) ___-__-___">
+
+
+
+<label for="email">email:</label>
+<input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+
+
+<label for="mesage">Твое предложение:</label>
+<textarea name="message" id="message" rows="5" placeholder="Ваше предложение или вакансия:" required></textarea>
+
+<button type="submit">Отправить</button>
+
+</form>
+</section>
+</main>
+
+<aside style="display: flex; flex-direction: column;">
+<a href="#">ВК</a>
+<a href="#">Instagramm</a>
+<a href="#">Discord</a>
+</aside>
+
+<footer>
+<p>Макар (С) 2025</p>
+
+<p>email:new136start@gmail.com</p>
+
+<a href="#head">В начало</a>
+</footer>
+
+
+</body>
+
+<script src="./script.js"></script>
+</html>
